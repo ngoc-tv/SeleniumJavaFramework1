@@ -1,3 +1,4 @@
+//This test is for autorecorder, export to Java selenium
 package demo;
 
 import java.util.regex.Pattern;
@@ -11,7 +12,7 @@ import java.io.File;
 import org.apache.commons.io.FileUtils;
 
 public class Test1 {
-  private WebDriver driver;
+  private WebDriver driver;S
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
