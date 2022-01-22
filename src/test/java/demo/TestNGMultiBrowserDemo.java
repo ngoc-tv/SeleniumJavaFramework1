@@ -25,7 +25,7 @@ public class TestNGMultiBrowserDemo {
 		System.out.println("Thread id: "+Thread.currentThread().getId());
 
 		if(browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", projectPath+"//drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", projectPath+ "//drivers/chromedriver");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equalsIgnoreCase("firefox")) {
