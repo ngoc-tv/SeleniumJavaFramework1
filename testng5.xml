@@ -10,7 +10,7 @@
   	</groups>
   	
     <classes>
-      <class name="demo.testNGGroupsDemo"/>
+      <class name="demo.TestNGGroupsDemo"/>
     </classes>
   </test> <!-- Test1 -->
 </suite> <!-- Suite1 -->

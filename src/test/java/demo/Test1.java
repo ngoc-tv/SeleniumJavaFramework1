@@ -12,7 +12,7 @@ import java.io.File;
 import org.apache.commons.io.FileUtils;
 
 public class Test1 {
-  private WebDriver driver;S
+  private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
@@ -20,7 +20,7 @@ public class Test1 {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-    System.setProperty("webdriver.chrome.driver", "/Users/nguyenpham/Documents/eclipse-workspace/SeleniumFramework/drivers/chromedriver");
+    System.setProperty("webdriver.chrome.driver", "D:\\Users\\ngoc\\eclipse-workspace\\SeleniumJavaFramework1\\drivers\\chromedriver.exe");
     driver = new ChromeDriver();
     baseUrl = "https://www.google.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
